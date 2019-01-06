@@ -1,4 +1,26 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/GithubPageTest/favicon.ico><title>vue-test</title><link href=/GithubPageTest/js/about.0bf3fb79.js rel=prefetch><link href=/GithubPageTest/css/app.46912a2d.css rel=preload as=style><link href=/GithubPageTest/js/app.ef267ee7.js rel=preload as=script><link href=/GithubPageTest/js/chunk-vendors.a09ed948.js rel=preload as=script><link href=/GithubPageTest/css/app.46912a2d.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://www.gstatic.com/firebasejs/5.5.9/firebase.js></script><script>// Initialize Firebase
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name="google-signin-client_id" content="901901639099-oicucsoq3camq78jpcj13l2kre4cv8pc.apps.googleusercontent.com">
+    <link rel=icon href=/GithubPageTest/favicon.ico>
+    <title>vue-test</title>
+    <link href=/GithubPageTest/js/about.0bf3fb79.js rel=prefetch>
+    <link href=/GithubPageTest/css/app.46912a2d.css rel=preload as=style>
+    <link href=/GithubPageTest/js/app.ef267ee7.js rel=preload as=script>
+    <link href=/GithubPageTest/js/chunk-vendors.a09ed948.js rel=preload as=script>
+    <link href=/GithubPageTest/css/app.46912a2d.css rel=stylesheet>
+</head>
+
+<body><noscript><strong>We're sorry but vue-test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id=app></div>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <script src=https://www.gstatic.com/firebasejs/5.5.9/firebase.js></script>
+    <script>
+        // Initialize Firebase
         var config = {
             apiKey: "AIzaSyDzRZTdRW698HSATOcuej9iP0fXPwmHIeE",
             authDomain: "messageblock-75b88.firebaseapp.com",
@@ -7,4 +29,19 @@
             storageBucket: "messageblock-75b88.appspot.com",
             messagingSenderId: "351940156856"
         };
-        firebase.initializeApp(config);</script><script src=/GithubPageTest/js/chunk-vendors.a09ed948.js></script><script src=/GithubPageTest/js/app.ef267ee7.js></script></body></html>
+        firebase.initializeApp(config);
+    </script>
+    <script src=/GithubPageTest/js/chunk-vendors.a09ed948.js></script>
+    <script src=/GithubPageTest/js/app.ef267ee7.js></script>
+    <script>
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+    </script>
+</body>
+
+</html>
