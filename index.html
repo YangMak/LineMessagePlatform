@@ -17,8 +17,10 @@
 
 <body><noscript><strong>We're sorry but vue-test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
     <div id=app></div>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <a href="#" onclick="signOut();">Sign out</a>
+    <div style="display:flex; flex-direction: row; justify-content: space-around;">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" onclick="signOut();">Sign out</a>
+    </div>
     <script src=https://www.gstatic.com/firebasejs/5.5.9/firebase.js></script>
     <script>
         // Initialize Firebase
