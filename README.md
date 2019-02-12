@@ -52,7 +52,7 @@ Message types : `text` `sticker` `image` and `imagemap`
 | <img name="wrfhyr7" src="https://i.imgur.com/wrfhyr7.jpg" width="100%"/> | <img name="WoxELPT" src="https://i.imgur.com/WoxELPT.jpg" width="300"/> |
 
 #### imagemap :
-[`Line image message document`](https://developers.line.biz/en/reference/messaging-api/#image-message)
+[`Line imagemap message document`](https://developers.line.biz/en/reference/messaging-api/#imagemap-message)
 
 | Push message | line | link |
 | ------ | ------ | ----- |
