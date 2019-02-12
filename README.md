@@ -1,5 +1,5 @@
 # Line Push Message Platform
-Platform for sends a push message to a user. [Platform Web Page](https://yangmak.github.io/GithubPageTest/#/)
+Platform for sends a push message to a user. [Platform Web Page](https://yangmak.github.io/LineMessagePlatform/#/)
 
 [`Vue Js`](https://vuejs.org/) + [`Firebase`](https://firebase.google.com/) + [`Line Message with GAS`](https://github.com/YangMak/Line-botWithGAS)
 
